@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.niit.duyanh.ketquaxoso.MainActivity">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imgbtnKetQuaTrucTiep"
+        android:src="@drawable/ketqua"
+        android:layout_marginTop="@dimen/main_vertical_margin"
+        android:layout_marginLeft="@dimen/main_horizontal_margin"
+        android:background="@color/colorWhite"
+        />
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imgbtnXemLaiKetQua"
+        android:layout_toRightOf="@+id/imgbtnKetQuaTrucTiep"
+        android:src="@drawable/xemlai"
+        android:layout_marginTop="@dimen/main_vertical_margin"
+        android:layout_marginLeft="@dimen/main_horizontal_margin"
+        android:background="@color/colorWhite"
+        />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imgbtnThongKe"
+        android:src="@drawable/ketqua"
+        android:layout_below="@+id/imgbtnKetQuaTrucTiep"
+        android:layout_marginTop="@dimen/main_vertical_margin"
+        android:layout_marginLeft="@dimen/main_horizontal_margin"
+        android:background="@color/colorWhite"
+        />
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imgbtnSoiCau"
+        android:layout_toRightOf="@+id/imgbtnThongKe"
+        android:layout_below="@+id/imgbtnXemLaiKetQua"
+        android:src="@drawable/xemlai"
+        android:layout_marginTop="@dimen/main_vertical_margin"
+        android:layout_marginLeft="@dimen/main_horizontal_margin"
+        android:background="@color/colorWhite"
+        />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imgbtnTinTuc"
+        android:layout_below="@+id/imgbtnThongKe"
+        android:src="@drawable/xemlai"
+        android:layout_marginTop="@dimen/main_vertical_margin"
+        android:layout_marginLeft="@dimen/main_horizontal_margin"
+        android:background="@color/colorWhite"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Xem trực tiếp"
+        android:layout_below="@+id/imgbtnKetQuaTrucTiep"
+        android:layout_toLeftOf="@+id/imgbtnXemLaiKetQua"
+        android:layout_toStartOf="@+id/imgbtnXemLaiKetQua"
+        android:id="@+id/textView2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Xem lại kết quả"
+        android:layout_below="@+id/imgbtnXemLaiKetQua"
+        android:layout_alignRight="@+id/imgbtnXemLaiKetQua"
+        android:layout_alignEnd="@+id/imgbtnXemLaiKetQua"
+        android:id="@+id/textView3" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thống kê"
+        android:layout_alignTop="@+id/textView"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2"
+        android:id="@+id/textView4" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Soi cầu"
+        android:id="@+id/textView"
+        android:layout_below="@+id/imgbtnSoiCau"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignStart="@+id/textView3" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tin tức"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/textView4"
+        android:layout_alignStart="@+id/textView4" />
+</RelativeLayout>

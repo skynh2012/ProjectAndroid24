@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/activity_horizontal_margin">
+
+        <TextView
+            android:id="@+id/tvxemketqua"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Xem kết quả ngày :" />
+
+        <EditText
+            android:id="@+id/edtXemKetQua"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvxemketqua"
+            android:inputType="date" />
+
+        <TextView
+            android:id="@+id/tvChonTinh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edtXemKetQua"
+            android:layout_margin="10dp"
+            android:text="Chọn tỉnh :" />
+
+        <Spinner
+            android:id="@+id/snpTinhThanh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvChonTinh">
+
+        </Spinner>
+
+        <RadioGroup
+            android:id="@+id/rdgKieuXem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/snpTinhThanh">
+
+            <RadioButton
+                android:id="@+id/rdXemAll"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+
+                android:text="Bảng kết quả và loto" />
+
+            <RadioButton
+                android:id="@+id/rdBangKetQua"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chỉ bảng kết quả" />
+
+            <RadioButton
+                android:id="@+id/rdLoto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chỉ xem loto" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btnXemKetQua"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rdgKieuXem"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:background="@color/colorGreen"
+            android:text="Xem kết quả" />
+    </RelativeLayout>
+
+
+</LinearLayout>
