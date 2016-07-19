@@ -1,5 +1,6 @@
 package com.niit.duyanh.ketquaxoso;
 
+import android.content.Intent;
 import android.os.Build;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -19,5 +20,11 @@ public class MainActivity extends AppCompatActivity {
         getWindow().getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_FULLSCREEN);
 
 
+    }
+
+    public void simpleClick(View v){
+        Intent it =new Intent(MainActivity.this,SoiCauActivity.class);
+
+        startActivity(it);
     }
 }
