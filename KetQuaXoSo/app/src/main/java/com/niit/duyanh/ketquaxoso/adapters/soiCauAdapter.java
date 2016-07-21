@@ -39,13 +39,14 @@ public class soiCauAdapter extends ArrayAdapter<SoiCau> {
         ViewHolder holder;
 
         if (convertView == null) {
+
             holder = new ViewHolder();
 
             convertView = layoutInflater.inflate(R.layout.soicau_item_template, parent, false);
 
             holder.imgSoiCau = (ImageView) convertView.findViewById(R.id.imgSearch);
 
-            holder.tvSoiCau = (TextView) convertView.findViewById(R.id.tvSoiCau);
+            holder.tvSoiCau = (TextView) convertView.findViewById(R.id.tvSoiCauLo);
 
             holder.imgNext = (ImageView) convertView.findViewById(R.id.imgNext);
 
@@ -53,10 +54,13 @@ public class soiCauAdapter extends ArrayAdapter<SoiCau> {
         } else {
             holder = (ViewHolder) convertView.getTag();
         }
-            final SoiCau soicau= arrSoiCau.get(position);
-        if (soicau != null){
 
-            holder.tvSoiCau.setText(soicau.getTitleSoiCau());
+       final SoiCau sc= arrSoiCau.get(position);
+
+        if (sc != null){
+            /*holder.imgSoiCau.setImageResource(R.mipmap.ic_launcher);
+            holder.imgNext.setImageResource(R.mipmap.ic_launcher);*/
+            holder.tvSoiCau.setText(sc.getTitleSoiCau());
 
         }
 
