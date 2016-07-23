@@ -2,6 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:background="@color/colorWhite"
     android:gravity="center"
     android:orientation="horizontal">
 
@@ -10,11 +11,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:background="@color/colorWhite"
         android:src="@drawable/search" />
 
     <LinearLayout
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
         android:layout_marginBottom="5dp"
         android:layout_marginTop="5dp"
         android:layout_weight="1"
@@ -24,9 +27,8 @@
             android:id="@+id/tvSoiCauLo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="start|center"
-            android:text="Soi cầu"
-            android:textSize="24dp" />
+            android:background="@color/colorWhite"
+            android:text="Soi cầu" />
 
     </LinearLayout>
 
@@ -35,5 +37,5 @@
         android:id="@+id/imgNext"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/arrowright" />
+        android:src="@drawable/next" />
 </LinearLayout>
