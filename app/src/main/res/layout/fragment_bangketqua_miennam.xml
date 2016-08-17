@@ -1,0 +1,1324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="2dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <!-- Start header  -->
+            <TextView style="@style/tv_KeNgang" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorHeaderKetQua"
+                android:orientation="horizontal">
+
+                <TextView style="@style/tv_KeDoc" />
+
+
+                <TextView
+                    android:id="@+id/tvHeaderMienNam"
+                    style="@style/tv_Header"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/table_margin"
+                    android:layout_weight="0.8" />
+
+                <TextView style="@style/tv_KeDoc" />
+            </LinearLayout>
+            <!-- end header  -->
+            <TextView style="@style/tv_KeNgang" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.1"
+                    android:orientation="horizontal">
+
+                    <TextView style="@style/tv_KeDoc" />
+
+                    <TextView
+                        style="@style/tv_GiaiThuong"
+                        android:text="Tỉnh"
+                        android:textColor="@color/colorGiaiDacBiet" />
+
+                    <TextView style="@style/tv_KeDoc" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.875"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tvTinh1"
+                        style="@style/tv_GiaiThuong"
+                        android:textColor="@color/colorGiaiDacBiet" />
+
+                    <TextView style="@style/tv_KeDoc" />
+
+                    <TextView
+                        android:id="@+id/tvTinh2"
+                        style="@style/tv_GiaiThuong"
+                        android:textColor="@color/colorGiaiDacBiet" />
+
+                    <TextView style="@style/tv_KeDoc" />
+
+                    <TextView
+                        android:id="@+id/tvTinh3"
+                        style="@style/tv_GiaiThuong"
+                        android:textColor="@color/colorGiaiDacBiet" />
+
+                    <TextView style="@style/tv_KeDoc" />
+
+                    <TextView
+                        android:id="@+id/tvTinh4"
+                        style="@style/tv_GiaiThuong"
+                        android:textColor="@color/colorGiaiDacBiet" />
+
+                    <TextView style="@style/tv_KeDoc" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+            <!-- Start  giải 0-->
+            <TextView style="@style/tv_KeNgang" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.1"
+                    android:orientation="horizontal">
+
+                    <TextView style="@style/tv_KeDoc" />
+
+                    <TextView
+                        style="@style/tv_GiaiThuong"
+                        android:text="Đb"
+                        android:textColor="@color/colorGiaiDacBiet" />
+
+                    <TextView style="@style/tv_KeDoc" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.875"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tvTinh1G0"
+                        style="@style/tv_GiaiThuong"
+                        android:textColor="@color/colorGiaiDacBiet" />
+
+                    <TextView style="@style/tv_KeDoc" />
+
+                    <TextView
+                        android:id="@+id/tvTinh2G0"
+                        style="@style/tv_GiaiThuong"
+                        android:textColor="@color/colorGiaiDacBiet" />
+
+                    <TextView style="@style/tv_KeDoc" />
+
+                    <TextView
+                        android:id="@+id/tvTinh3G0"
+                        style="@style/tv_GiaiThuong"
+                        android:textColor="@color/colorGiaiDacBiet" />
+
+                    <TextView style="@style/tv_KeDoc" />
+
+                    <TextView
+                        android:id="@+id/tvTinh4G0"
+                        style="@style/tv_GiaiThuong"
+                        android:textColor="@color/colorGiaiDacBiet" />
+
+                    <TextView style="@style/tv_KeDoc" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+            <!-- end  giải 0-->
+
+            <!-- Start  giải 1-->
+            <TextView style="@style/tv_KeNgang" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.1"
+                    android:orientation="horizontal">
+
+                    <TextView style="@style/tv_KeDoc" />
+
+                    <TextView
+                        style="@style/tv_GiaiThuong"
+                        android:text="G1" />
+
+                    <TextView style="@style/tv_KeDoc" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.875"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tvTinh1G1"
+                        style="@style/tv_GiaiThuong" />
+
+                    <TextView style="@style/tv_KeDoc" />
+
+                    <TextView
+                        android:id="@+id/tvTinh2G1"
+                        style="@style/tv_GiaiThuong" />
+
+                    <TextView style="@style/tv_KeDoc" />
+
+                    <TextView
+                        android:id="@+id/tvTinh3G1"
+                        style="@style/tv_GiaiThuong" />
+
+                    <TextView style="@style/tv_KeDoc" />
+
+                    <TextView
+                        android:id="@+id/tvTinh4G1"
+                        style="@style/tv_GiaiThuong" />
+
+                    <TextView style="@style/tv_KeDoc" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+            <!-- end  giải 1-->
+
+            <!-- Start  giải 2-->
+            <TextView style="@style/tv_KeNgang" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.1"
+                    android:orientation="horizontal">
+
+                    <TextView style="@style/tv_KeDoc" />
+
+                    <TextView
+                        style="@style/tv_GiaiThuong"
+                        android:text="G2" />
+
+                    <TextView style="@style/tv_KeDoc" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.875"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tvTinh1G2"
+                        style="@style/tv_GiaiThuong" />
+
+                    <TextView style="@style/tv_KeDoc" />
+
+                    <TextView
+                        android:id="@+id/tvTinh2G2"
+                        style="@style/tv_GiaiThuong" />
+
+                    <TextView style="@style/tv_KeDoc" />
+
+                    <TextView
+                        android:id="@+id/tvTinh3G2"
+                        style="@style/tv_GiaiThuong" />
+
+                    <TextView style="@style/tv_KeDoc" />
+
+                    <TextView
+                        android:id="@+id/tvTinh4G2"
+                        style="@style/tv_GiaiThuong" />
+
+                    <TextView style="@style/tv_KeDoc" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+            <!-- end  giải 2 -->
+
+            <!-- Start  giải 3-->
+            <TextView style="@style/tv_KeNgang" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.1"
+                    android:orientation="horizontal">
+
+                    <TextView style="@style/tv_KeDoc" />
+
+                    <TextView
+                        style="@style/tv_GiaiThuong"
+                        android:text="G3" />
+
+                    <TextView style="@style/tv_KeDoc" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.875"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tvTinh1G3"
+                        style="@style/tv_GiaiThuong" />
+
+                    <TextView style="@style/tv_KeDoc" />
+
+                    <TextView
+                        android:id="@+id/tvTinh2G3"
+                        style="@style/tv_GiaiThuong" />
+
+                    <TextView style="@style/tv_KeDoc" />
+
+                    <TextView
+                        android:id="@+id/tvTinh3G3"
+                        style="@style/tv_GiaiThuong" />
+
+                    <TextView style="@style/tv_KeDoc" />
+
+                    <TextView
+                        android:id="@+id/tvTinh4G3"
+                        style="@style/tv_GiaiThuong" />
+
+                    <TextView style="@style/tv_KeDoc" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+            <!-- end  giải 3 -->
+
+            <!-- Start  giải 4-->
+            <TextView style="@style/tv_KeNgang" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.1"
+                    android:orientation="horizontal">
+
+                    <TextView style="@style/tv_KeDoc" />
+
+                    <TextView
+                        style="@style/tv_GiaiThuong"
+                        android:text="G4" />
+
+                    <TextView style="@style/tv_KeDoc" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.875"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tvTinh1G4"
+                        style="@style/tv_GiaiThuong" />
+
+                    <TextView style="@style/tv_KeDoc" />
+
+                    <TextView
+                        android:id="@+id/tvTinh2G4"
+                        style="@style/tv_GiaiThuong" />
+
+                    <TextView style="@style/tv_KeDoc" />
+
+                    <TextView
+                        android:id="@+id/tvTinh3G4"
+                        style="@style/tv_GiaiThuong" />
+
+                    <TextView style="@style/tv_KeDoc" />
+
+                    <TextView
+                        android:id="@+id/tvTinh4G4"
+                        style="@style/tv_GiaiThuong" />
+
+                    <TextView style="@style/tv_KeDoc" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+            <!-- end  giải 4 -->
+
+            <!-- Start  giải 5-->
+            <TextView style="@style/tv_KeNgang" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.1"
+                    android:orientation="horizontal">
+
+                    <TextView style="@style/tv_KeDoc" />
+
+                    <TextView
+                        style="@style/tv_GiaiThuong"
+                        android:text="G5" />
+
+                    <TextView style="@style/tv_KeDoc" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.875"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tvTinh1G5"
+                        style="@style/tv_GiaiThuong" />
+
+                    <TextView style="@style/tv_KeDoc" />
+
+                    <TextView
+                        android:id="@+id/tvTinh2G5"
+                        style="@style/tv_GiaiThuong" />
+
+                    <TextView style="@style/tv_KeDoc" />
+
+                    <TextView
+                        android:id="@+id/tvTinh3G5"
+                        style="@style/tv_GiaiThuong" />
+
+                    <TextView style="@style/tv_KeDoc" />
+
+                    <TextView
+                        android:id="@+id/tvTinh4G5"
+                        style="@style/tv_GiaiThuong" />
+
+                    <TextView style="@style/tv_KeDoc" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+            <!-- end  giải 5 -->
+
+            <!-- Start  giải 6-->
+            <TextView style="@style/tv_KeNgang" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.1"
+                    android:orientation="horizontal">
+
+                    <TextView style="@style/tv_KeDoc" />
+
+                    <TextView
+                        style="@style/tv_GiaiThuong"
+                        android:text="G6" />
+
+                    <TextView style="@style/tv_KeDoc" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.875"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tvTinh1G6"
+                        style="@style/tv_GiaiThuong" />
+
+                    <TextView style="@style/tv_KeDoc" />
+
+                    <TextView
+                        android:id="@+id/tvTinh2G6"
+                        style="@style/tv_GiaiThuong" />
+
+                    <TextView style="@style/tv_KeDoc" />
+
+                    <TextView
+                        android:id="@+id/tvTinh3G6"
+                        style="@style/tv_GiaiThuong" />
+
+                    <TextView style="@style/tv_KeDoc" />
+
+                    <TextView
+                        android:id="@+id/tvTinh4G6"
+                        style="@style/tv_GiaiThuong" />
+
+                    <TextView style="@style/tv_KeDoc" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+            <!-- end  giải 6 -->
+
+            <!-- Start  giải 7-->
+            <TextView style="@style/tv_KeNgang" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.1"
+                    android:orientation="horizontal">
+
+                    <TextView style="@style/tv_KeDoc" />
+
+                    <TextView
+                        style="@style/tv_GiaiThuong"
+                        android:text="G7" />
+
+                    <TextView style="@style/tv_KeDoc" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.875"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tvTinh1G7"
+                        style="@style/tv_GiaiThuong" />
+
+                    <TextView style="@style/tv_KeDoc" />
+
+                    <TextView
+                        android:id="@+id/tvTinh2G7"
+                        style="@style/tv_GiaiThuong" />
+
+                    <TextView style="@style/tv_KeDoc" />
+
+                    <TextView
+                        android:id="@+id/tvTinh3G7"
+                        style="@style/tv_GiaiThuong" />
+
+                    <TextView style="@style/tv_KeDoc" />
+
+                    <TextView
+                        android:id="@+id/tvTinh4G7"
+                        style="@style/tv_GiaiThuong" />
+
+                    <TextView style="@style/tv_KeDoc" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+            <!-- end  giải 7 -->
+
+            <!-- Start  giải 8-->
+            <TextView style="@style/tv_KeNgang" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.1"
+                    android:orientation="horizontal">
+
+                    <TextView style="@style/tv_KeDoc" />
+
+                    <TextView
+                        style="@style/tv_GiaiThuong"
+                        android:text="G8" />
+
+                    <TextView style="@style/tv_KeDoc" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.875"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tvTinh1G8"
+                        style="@style/tv_GiaiThuong" />
+
+                    <TextView style="@style/tv_KeDoc" />
+
+                    <TextView
+                        android:id="@+id/tvTinh2G8"
+                        style="@style/tv_GiaiThuong" />
+
+                    <TextView style="@style/tv_KeDoc" />
+
+                    <TextView
+                        android:id="@+id/tvTinh3G8"
+                        style="@style/tv_GiaiThuong" />
+
+                    <TextView style="@style/tv_KeDoc" />
+
+                    <TextView
+                        android:id="@+id/tvTinh4G8"
+                        style="@style/tv_GiaiThuong" />
+
+                    <TextView style="@style/tv_KeDoc" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+            <!-- end  Giải 8 -->
+
+            <TextView style="@style/tv_KeNgang" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <TextView style="@style/tv_KeNgang" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorMauHeaderThongKe"
+                android:orientation="horizontal">
+
+                <TextView style="@style/tv_KeDoc" />
+
+                <TextView
+                    android:id="@+id/tvHeaderDauDuoiMienNam"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/table_margin"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Thống kê Loto trực tiếp"
+                    android:textColor="@color/color_Button_Text" />
+            </LinearLayout>
+            <!-- start thống kê đầu đuôi lô tô -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/lnThongKeDau"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:orientation="vertical">
+
+                    <!-- Start header đầu -->
+                    <TextView style="@style/tv_KeNgang" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/colorMauHeaderThongKe"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.1"
+                            android:orientation="horizontal">
+
+                            <TextView style="@style/tv_KeDoc" />
+
+                            <TextView
+                                style="@style/tv_GiaiThuong"
+                                android:text="Đầu"
+                                android:textColor="@color/colorGiaiDacBiet" />
+
+                            <TextView style="@style/tv_KeDoc" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.875"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/tvDauTinh1"
+                                style="@style/tv_GiaiThuong" />
+
+                            <TextView style="@style/tv_KeDoc" />
+
+                            <TextView
+                                android:id="@+id/tvDauTinh2"
+                                style="@style/tv_GiaiThuong" />
+
+                            <TextView style="@style/tv_KeDoc" />
+
+                            <TextView
+                                android:id="@+id/tvDauTinh3"
+                                style="@style/tv_GiaiThuong" />
+
+                            <TextView style="@style/tv_KeDoc" />
+
+                            <TextView
+                                android:id="@+id/tvDauTinh4"
+                                style="@style/tv_GiaiThuong" />
+
+                            <TextView style="@style/tv_KeDoc" />
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+                    <!-- end header đầu -->
+
+                    <!-- Start  đầu 0-->
+                    <TextView style="@style/tv_KeNgang" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.1"
+                            android:orientation="horizontal">
+
+                            <TextView style="@style/tv_KeDoc" />
+
+                            <TextView
+                                style="@style/tv_GiaiThuong"
+                                android:text="0"
+                                android:textColor="@color/colorGiaiDacBiet" />
+
+                            <TextView style="@style/tv_KeDoc" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.875"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/tvDauTinh1D0"
+                                style="@style/tv_GiaiThuong_gravityStart" />
+
+                            <TextView style="@style/tv_KeDoc" />
+
+                            <TextView
+                                android:id="@+id/tvDauTinh2D0"
+                                style="@style/tv_GiaiThuong_gravityStart" />
+
+                            <TextView style="@style/tv_KeDoc" />
+
+                            <TextView
+                                android:id="@+id/tvDauTinh3D0"
+                                style="@style/tv_GiaiThuong_gravityStart" />
+
+                            <TextView style="@style/tv_KeDoc" />
+
+                            <TextView
+                                android:id="@+id/tvDauTinh4D0"
+                                style="@style/tv_GiaiThuong_gravityStart" />
+
+                            <TextView style="@style/tv_KeDoc" />
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+                    <!-- end  đầu 0-->
+
+                    <!-- Start  đầu 1-->
+                    <TextView style="@style/tv_KeNgang" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.1"
+                            android:orientation="horizontal">
+
+                            <TextView style="@style/tv_KeDoc" />
+
+                            <TextView
+                                style="@style/tv_GiaiThuong"
+                                android:text="1"
+                                android:textColor="@color/colorGiaiDacBiet" />
+
+                            <TextView style="@style/tv_KeDoc" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.875"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/tvDauTinh1D1"
+                                style="@style/tv_GiaiThuong_gravityStart" />
+
+                            <TextView style="@style/tv_KeDoc" />
+
+                            <TextView
+                                android:id="@+id/tvDauTinh2D1"
+                                style="@style/tv_GiaiThuong_gravityStart" />
+
+                            <TextView style="@style/tv_KeDoc" />
+
+                            <TextView
+                                android:id="@+id/tvDauTinh3D1"
+                                style="@style/tv_GiaiThuong_gravityStart" />
+
+                            <TextView style="@style/tv_KeDoc" />
+
+                            <TextView
+                                android:id="@+id/tvDauTinh4D1"
+                                style="@style/tv_GiaiThuong_gravityStart" />
+
+                            <TextView style="@style/tv_KeDoc" />
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+                    <!-- end  đầu 1-->
+
+                    <!-- Start  đầu 2-->
+                    <TextView style="@style/tv_KeNgang" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.1"
+                            android:orientation="horizontal">
+
+                            <TextView style="@style/tv_KeDoc" />
+
+                            <TextView
+                                style="@style/tv_GiaiThuong"
+                                android:text="2"
+                                android:textColor="@color/colorGiaiDacBiet" />
+
+                            <TextView style="@style/tv_KeDoc" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.875"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/tvDauTinh1D2"
+                                style="@style/tv_GiaiThuong_gravityStart" />
+
+                            <TextView style="@style/tv_KeDoc" />
+
+                            <TextView
+                                android:id="@+id/tvDauTinh2D2"
+                                style="@style/tv_GiaiThuong_gravityStart" />
+
+                            <TextView style="@style/tv_KeDoc" />
+
+                            <TextView
+                                android:id="@+id/tvDauTinh3D2"
+                                style="@style/tv_GiaiThuong_gravityStart" />
+
+                            <TextView style="@style/tv_KeDoc" />
+
+                            <TextView
+                                android:id="@+id/tvDauTinh4D2"
+                                style="@style/tv_GiaiThuong_gravityStart" />
+
+                            <TextView style="@style/tv_KeDoc" />
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+                    <!-- end  đầu 2 -->
+
+                    <!-- Start  đầu 3-->
+                    <TextView style="@style/tv_KeNgang" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.1"
+                            android:orientation="horizontal">
+
+                            <TextView style="@style/tv_KeDoc" />
+
+                            <TextView
+                                style="@style/tv_GiaiThuong"
+                                android:text="3"
+                                android:textColor="@color/colorGiaiDacBiet" />
+
+                            <TextView style="@style/tv_KeDoc" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.875"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/tvDauTinh1D3"
+                                style="@style/tv_GiaiThuong_gravityStart" />
+
+                            <TextView style="@style/tv_KeDoc" />
+
+                            <TextView
+                                android:id="@+id/tvDauTinh2D3"
+                                style="@style/tv_GiaiThuong_gravityStart" />
+
+                            <TextView style="@style/tv_KeDoc" />
+
+                            <TextView
+                                android:id="@+id/tvDauTinh3D3"
+                                style="@style/tv_GiaiThuong_gravityStart" />
+
+                            <TextView style="@style/tv_KeDoc" />
+
+                            <TextView
+                                android:id="@+id/tvDauTinh4D3"
+                                style="@style/tv_GiaiThuong_gravityStart" />
+
+                            <TextView style="@style/tv_KeDoc" />
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+                    <!-- end  đầu 3 -->
+
+                    <!-- Start  đầu 4-->
+                    <TextView style="@style/tv_KeNgang" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.1"
+                            android:orientation="horizontal">
+
+                            <TextView style="@style/tv_KeDoc" />
+
+                            <TextView
+                                style="@style/tv_GiaiThuong"
+                                android:text="4"
+                                android:textColor="@color/colorGiaiDacBiet" />
+
+                            <TextView style="@style/tv_KeDoc" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.875"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/tvDauTinh1D4"
+                                style="@style/tv_GiaiThuong_gravityStart" />
+
+                            <TextView style="@style/tv_KeDoc" />
+
+                            <TextView
+                                android:id="@+id/tvDauTinh2D4"
+                                style="@style/tv_GiaiThuong_gravityStart" />
+
+                            <TextView style="@style/tv_KeDoc" />
+
+                            <TextView
+                                android:id="@+id/tvDauTinh3D4"
+                                style="@style/tv_GiaiThuong_gravityStart" />
+
+                            <TextView style="@style/tv_KeDoc" />
+
+                            <TextView
+                                android:id="@+id/tvDauTinh4D4"
+                                style="@style/tv_GiaiThuong_gravityStart" />
+
+                            <TextView style="@style/tv_KeDoc" />
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+                    <!-- end  đầu 4 -->
+
+                    <!-- Start  đầu 5-->
+                    <TextView style="@style/tv_KeNgang" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.1"
+                            android:orientation="horizontal">
+
+                            <TextView style="@style/tv_KeDoc" />
+
+                            <TextView
+                                style="@style/tv_GiaiThuong"
+                                android:text="5"
+                                android:textColor="@color/colorGiaiDacBiet" />
+
+                            <TextView style="@style/tv_KeDoc" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.875"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/tvDauTinh1D5"
+                                style="@style/tv_GiaiThuong_gravityStart" />
+
+                            <TextView style="@style/tv_KeDoc" />
+
+                            <TextView
+                                android:id="@+id/tvDauTinh2D5"
+                                style="@style/tv_GiaiThuong_gravityStart" />
+
+                            <TextView style="@style/tv_KeDoc" />
+
+                            <TextView
+                                android:id="@+id/tvDauTinh3D5"
+                                style="@style/tv_GiaiThuong_gravityStart" />
+
+                            <TextView style="@style/tv_KeDoc" />
+
+                            <TextView
+                                android:id="@+id/tvDauTinh4D5"
+                                style="@style/tv_GiaiThuong_gravityStart" />
+
+                            <TextView style="@style/tv_KeDoc" />
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+                    <!-- end  đầu 5 -->
+
+                    <!-- Start  đầu 6-->
+                    <TextView style="@style/tv_KeNgang" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.1"
+                            android:orientation="horizontal">
+
+                            <TextView style="@style/tv_KeDoc" />
+
+                            <TextView
+                                style="@style/tv_GiaiThuong"
+                                android:text="6"
+                                android:textColor="@color/colorGiaiDacBiet" />
+
+                            <TextView style="@style/tv_KeDoc" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.875"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/tvDauTinh1D6"
+                                style="@style/tv_GiaiThuong_gravityStart" />
+
+                            <TextView style="@style/tv_KeDoc" />
+
+                            <TextView
+                                android:id="@+id/tvDauTinh2D6"
+                                style="@style/tv_GiaiThuong_gravityStart" />
+
+                            <TextView style="@style/tv_KeDoc" />
+
+                            <TextView
+                                android:id="@+id/tvDauTinh3D6"
+                                style="@style/tv_GiaiThuong_gravityStart" />
+
+                            <TextView style="@style/tv_KeDoc" />
+
+                            <TextView
+                                android:id="@+id/tvDauTinh4D6"
+                                style="@style/tv_GiaiThuong_gravityStart" />
+
+                            <TextView style="@style/tv_KeDoc" />
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+                    <!-- end  đầu 6 -->
+
+                    <!-- Start  đầu 7-->
+                    <TextView style="@style/tv_KeNgang" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.1"
+                            android:orientation="horizontal">
+
+                            <TextView style="@style/tv_KeDoc" />
+
+                            <TextView
+                                style="@style/tv_GiaiThuong"
+                                android:text="7"
+                                android:textColor="@color/colorGiaiDacBiet" />
+
+                            <TextView style="@style/tv_KeDoc" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.875"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/tvDauTinh1D7"
+                                style="@style/tv_GiaiThuong_gravityStart" />
+
+                            <TextView style="@style/tv_KeDoc" />
+
+                            <TextView
+                                android:id="@+id/tvDauTinh2D7"
+                                style="@style/tv_GiaiThuong_gravityStart" />
+
+                            <TextView style="@style/tv_KeDoc" />
+
+                            <TextView
+                                android:id="@+id/tvDauTinh3D7"
+                                style="@style/tv_GiaiThuong_gravityStart" />
+
+                            <TextView style="@style/tv_KeDoc" />
+
+                            <TextView
+                                android:id="@+id/tvDauTinh4D7"
+                                style="@style/tv_GiaiThuong_gravityStart" />
+
+                            <TextView style="@style/tv_KeDoc" />
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+                    <!-- end  đầu 7 -->
+
+                    <!-- Start  đầu 8-->
+                    <TextView style="@style/tv_KeNgang" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.1"
+                            android:orientation="horizontal">
+
+                            <TextView style="@style/tv_KeDoc" />
+
+                            <TextView
+                                style="@style/tv_GiaiThuong"
+                                android:text="8"
+                                android:textColor="@color/colorGiaiDacBiet" />
+
+                            <TextView style="@style/tv_KeDoc" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.875"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/tvDauTinh1D8"
+                                style="@style/tv_GiaiThuong_gravityStart" />
+
+                            <TextView style="@style/tv_KeDoc" />
+
+                            <TextView
+                                android:id="@+id/tvDauTinh2D8"
+                                style="@style/tv_GiaiThuong_gravityStart" />
+
+                            <TextView style="@style/tv_KeDoc" />
+
+                            <TextView
+                                android:id="@+id/tvDauTinh3D8"
+                                style="@style/tv_GiaiThuong_gravityStart" />
+
+                            <TextView style="@style/tv_KeDoc" />
+
+                            <TextView
+                                android:id="@+id/tvDauTinh4D8"
+                                style="@style/tv_GiaiThuong_gravityStart" />
+
+                            <TextView style="@style/tv_KeDoc" />
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+                    <!-- end  đầu 8 -->
+
+                    <!-- Start  đầu 9-->
+                    <TextView style="@style/tv_KeNgang" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.1"
+                            android:orientation="horizontal">
+
+                            <TextView style="@style/tv_KeDoc" />
+
+                            <TextView
+                                style="@style/tv_GiaiThuong"
+                                android:text="9"
+                                android:textColor="@color/colorGiaiDacBiet" />
+
+                            <TextView style="@style/tv_KeDoc" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.875"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/tvDauTinh1D9"
+                                style="@style/tv_GiaiThuong_gravityStart" />
+
+                            <TextView style="@style/tv_KeDoc" />
+
+                            <TextView
+                                android:id="@+id/tvDauTinh2D9"
+                                style="@style/tv_GiaiThuong_gravityStart" />
+
+                            <TextView style="@style/tv_KeDoc" />
+
+                            <TextView
+                                android:id="@+id/tvDauTinh3D9"
+                                style="@style/tv_GiaiThuong_gravityStart" />
+
+                            <TextView style="@style/tv_KeDoc" />
+
+                            <TextView
+                                android:id="@+id/tvDauTinh4D9"
+                                style="@style/tv_GiaiThuong_gravityStart" />
+
+                            <TextView style="@style/tv_KeDoc" />
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+                    <!-- end  đầu 9 -->
+                    <TextView style="@style/tv_KeNgang" />
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

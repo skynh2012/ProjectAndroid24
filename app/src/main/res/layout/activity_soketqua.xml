@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lnSoKetQua"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_horizontal_margin">
+
+    <LinearLayout
+        android:id="@+id/lnChonXem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/linear_boder_style"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Xem kết quả từ ngày : "
+            android:textColor="@color/colorText"
+            android:textStyle="italic" />
+
+        <EditText
+            android:id="@+id/edtFromDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="date" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Đến ngày : "
+            android:textColor="@color/colorText"
+            android:textStyle="italic" />
+
+        <EditText
+            android:id="@+id/edtToDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="date" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chọn tỉnh :"
+            android:textColor="@color/colorText"
+            android:textStyle="italic" />
+
+        <Spinner
+            android:id="@+id/spnTinhThanh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:spinnerMode="dropdown">
+
+        </Spinner>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kiểu xem :"
+            android:textColor="@color/colorText"
+            android:textStyle="italic" />
+
+        <RadioGroup
+            android:id="@+id/rdgKieuXem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/rdXemAll"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="Bảng kết quả và loto" />
+
+            <RadioButton
+                android:id="@+id/rdXemBangKetQua"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chỉ xem bảng kết quả" />
+
+            <RadioButton
+                android:id="@+id/rdXemLoto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chỉ xem loto" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnXem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/color_Button"
+        android:text="Xem kết quả"
+        android:textColor="@color/color_Button_Text" />
+
+    <LinearLayout
+        android:id="@+id/fragmentXemKetQua"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"></LinearLayout>
+
+</LinearLayout>

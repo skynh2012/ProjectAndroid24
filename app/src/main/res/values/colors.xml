@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorRed">#E40700</color>
+    <color name="colorBackground">#ffffff</color>
+    <color name="colorRelactiveLayout">#a9a3a3</color>
+    <color name="colorBlack">#414141</color>
+    <color name="colorHeaderKetQua">#4D9900</color>
+    <color name="colorText">#000000</color>
+    <color name="color_Nav_Item">#28bcb0</color>
+    <color name="color_Button">#689F38</color>
+    <color name="color_Button_Text">#ffffff</color>
+    <color name="colorGiaiDacBiet">#dd0000</color>
+    <color name="colorGiaiThuong">#000000</color>
+    <color name="colorBorder">#414141</color>
+    <color name="colorMauHeaderThongKe">#226fa6</color>
+    <color name="colorMainImageButton">#E6EAF1</color>
+
+
+</resources>
